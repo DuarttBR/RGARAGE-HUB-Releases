@@ -1,0 +1,28 @@
+{
+  "minimumUsd": 1,
+  "options": [
+    {
+      "id": "sponsors",
+      "name": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/DuarttBR",
+      "fee": "0%",
+      "enabled": false
+    },
+    {
+      "id": "pix",
+      "name": "PIX",
+      "key": "",
+      "holder": "",
+      "region": "BR",
+      "fee": "0%",
+      "enabled": false
+    },
+    {
+      "id": "kofi",
+      "name": "Ko-fi",
+      "url": "",
+      "fee": "0%",
+      "enabled": false
+    }
+  ]
+}
