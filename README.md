@@ -33,6 +33,7 @@ Hoje os ports de PC e as recompilações de jogos de console estão espalhados e
 
 - **Catálogo com mais de 2.700 projetos**, reunido do [AllRecomps](https://allrecomps.com), do [Awesome Decomp Games](https://github.com/SubmitGame/awesome-decomp-games) e do [Recompiled Games List](https://github.com/wangxiaoxiang5599/recompiled-games-list). Se uma lista sair do ar, as outras continuam.
 - **Instalação com um clique**, direto da release oficial de cada projeto no GitHub, com fila de downloads, retomada e aviso de atualização.
+- **O hub se atualiza sozinho**: baixa a versão nova em segundo plano, confere o SHA-256 da release e instala quando você reinicia ou fecha (dá para desligar em Configurações › Sobre).
 - **Preparar jogo**: você mostra onde está a **sua** cópia (ROM, ISO, BIN/CUE, PKG, pasta) e o hub identifica, confere ID, versão, região e SHA-1, extrai PKG de PS4 e aplica o update, converte ROM de N64 para `.z64` e grava o caminho no port.
 - **Problemas e soluções**: mostra o seu PC (placa de vídeo, processador, RAM), lê o log quando o jogo fecha com erro, traz as **correções recomendadas pela comunidade** para aplicar com um clique (e remover se não ajudar) e separa os relatos do GitHub que batem com a sua placa e o seu processador.
 - **Guias e vídeos**: tutoriais e correções do YouTube no idioma e no país do seu PC, README traduzido e links da comunidade.
@@ -85,6 +86,7 @@ O RGARAGE HUB é **gratuito e de código aberto**. Se ele te ajudou a jogar, **a
 - **2,700+ projects** gathered from AllRecomps, Awesome Decomp Games and Recompiled Games List, with one-click installs from each project's official GitHub release, a download queue, resume and update alerts.
 - **Prepare game**: point to **your own** copy (ROM, ISO, BIN/CUE, PKG, folder). The hub identifies it, checks ID, version, region and SHA-1, extracts PS4 PKGs and applies the update, converts N64 ROMs to `.z64` and saves the path in the port.
 - **Problems and fixes**: shows your PC, reads the log when a game crashes, offers **community-recommended fixes** you can apply in one click (and remove if they don't help), and filters GitHub reports that match your GPU and CPU.
+- **The hub updates itself**: downloads new versions in the background, verifies the release SHA-256 and installs when you restart or close it (can be turned off in Settings › About).
 - **Guides and videos**: YouTube tutorials and fixes in your language and country, translated READMEs and community links.
 - Profiles, library, favorites, play time, controller/TV mode, **light mode** for weaker PCs and a UI in **7 languages**.
 
