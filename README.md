@@ -10,7 +10,7 @@ _Every game port and recompilation in one hub_
 [![Download](https://img.shields.io/badge/⬇%20Download-latest-00e5ff?style=for-the-badge)](../../releases/latest)
 [![Site](https://img.shields.io/badge/🌐%20ryugarage.com-scripts%20%26%20mods-111?style=for-the-badge)](https://ryugarage.com/)
 [![Idiomas](https://img.shields.io/badge/🌍%207%20idiomas-PT%20·%20EN%20·%20ES%20·%20FR%20·%20DE%20·%20IT%20·%20RU-222?style=for-the-badge)](#-english)
-[![Apoie](https://img.shields.io/badge/❤%20Apoie%20%2F%20Support-a%20partir%20de%20US%241-ff4f86?style=for-the-badge)](#️-mantenha-o-projeto-vivo)
+[![Apoie](https://img.shields.io/badge/❤%20Apoie%20%2F%20Support-Ko--fi-ff4f86?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/duarttbr)
 
 <img src="assets/home.jpg" width="90%" alt="RGARAGE HUB">
 
@@ -59,6 +59,7 @@ O RGARAGE HUB é **gratuito e de código aberto**. Se ele te ajudou a jogar, **a
 
 | Como apoiar | Onde |
 |---|---|
+| ☕ **[Ko-fi](https://ko-fi.com/duarttbr)** | Cartão ou PayPal · valor livre · sem precisar de conta |
 | ❤️ **Botão Apoiar** | No próprio app: no alto da tela, em todas as páginas, e no cartão "Apoie o projeto" do Início |
 | 💳 **GitHub Sponsors** | 0% de taxa · valor livre · único ou mensal _(em breve)_ |
 | 🇧🇷 **PIX** | sem taxa _(em breve)_ |
@@ -82,7 +83,7 @@ O RGARAGE HUB é **gratuito e de código aberto**. Se ele te ajudou a jogar, **a
 
 **Important**: RGARAGE HUB does **not** download games or point to where to get them. Ports run with the files of **your original copy**.
 
-**❤️ Support the project**: the hub is free and open source. Donate **any amount, starting at US$ 1**, through the **Support** button at the top of every screen in the app (or the "Support the project" card on Home), via GitHub Sponsors (0% fee, coming soon), or give this repo a ⭐.
+**❤️ Support the project**: the hub is free and open source. Donate **any amount, starting at US$ 1**, on **[Ko-fi](https://ko-fi.com/duarttbr)** (card or PayPal, no account needed), through the **Support** button at the top of every screen in the app, or give this repo a ⭐.
 
 ---
 

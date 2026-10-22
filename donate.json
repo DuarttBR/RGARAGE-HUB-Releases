@@ -2,6 +2,13 @@
   "minimumUsd": 1,
   "options": [
     {
+      "id": "kofi",
+      "name": "Ko-fi",
+      "url": "https://ko-fi.com/duarttbr",
+      "fee": "0%",
+      "enabled": true
+    },
+    {
       "id": "sponsors",
       "name": "GitHub Sponsors",
       "url": "https://github.com/sponsors/DuarttBR",
@@ -14,13 +21,6 @@
       "key": "",
       "holder": "",
       "region": "BR",
-      "fee": "0%",
-      "enabled": false
-    },
-    {
-      "id": "kofi",
-      "name": "Ko-fi",
-      "url": "",
       "fee": "0%",
       "enabled": false
     }
