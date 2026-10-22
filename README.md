@@ -62,8 +62,17 @@ O RGARAGE HUB é **gratuito e de código aberto**. Se ele te ajudou a jogar, **a
 | ☕ **[Ko-fi](https://ko-fi.com/duarttbr)** | Cartão ou PayPal · valor livre · sem precisar de conta |
 | ❤️ **Botão Apoiar** | No próprio app: no alto da tela, em todas as páginas, e no cartão "Apoie o projeto" do Início |
 | 💳 **GitHub Sponsors** | 0% de taxa · valor livre · único ou mensal _(em breve)_ |
-| 🇧🇷 **PIX** | sem taxa _(em breve)_ |
+| 🇧🇷 **PIX** | Sem taxa · qualquer valor · QR e chave abaixo |
 | ⭐ **Sem gastar nada** | Dê uma estrela neste repositório e indique para os amigos |
+
+<div align="center">
+
+<img src="assets/pix-qr.png" width="220" alt="QR Code PIX">
+
+**PIX (chave aleatória):** `0a7c7e8b-ca82-4d80-801e-d5ac36cb7705`<br>
+<sub>Bruno P. Fernandes · Banco Inter · informe o valor quando for pagar</sub>
+
+</div>
 
 ---
 

@@ -2,6 +2,17 @@
   "minimumUsd": 1,
   "options": [
     {
+      "id": "pix",
+      "name": "PIX",
+      "key": "0a7c7e8b-ca82-4d80-801e-d5ac36cb7705",
+      "holder": "Bruno P. Fernandes · Banco Inter",
+      "brcode": "00020101021126580014br.gov.bcb.pix01360a7c7e8b-ca82-4d80-801e-d5ac36cb77055204000053039865802BR5917BRUNO P FERNANDES6013VITORIA DA CO62070503***6304CFCB",
+      "qr": "https://raw.githubusercontent.com/DuarttBR/RGARAGE-HUB-Releases/main/assets/pix-qr.png",
+      "region": "BR",
+      "fee": "0%",
+      "enabled": true
+    },
+    {
       "id": "kofi",
       "name": "Ko-fi",
       "url": "https://ko-fi.com/duarttbr",
@@ -12,15 +23,6 @@
       "id": "sponsors",
       "name": "GitHub Sponsors",
       "url": "https://github.com/sponsors/DuarttBR",
-      "fee": "0%",
-      "enabled": false
-    },
-    {
-      "id": "pix",
-      "name": "PIX",
-      "key": "",
-      "holder": "",
-      "region": "BR",
       "fee": "0%",
       "enabled": false
     }
