@@ -1,0 +1,961 @@
+{
+ "updated": "2026-10-24",
+ "repos": {
+  "riseio/twipe_00sheven": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats: invulnerability, infinite oxygen, no fall damage, all weapons, all gadgets,"
+   ]
+  },
+  "antrad/abuse_1996": {
+   "how": "console",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Added cheats via chat console: bullettime, god, giveall, flypower, sneakypower, fastpower, healthpower, nopower",
+    "special2 - use bullet time cheat (not in the original version)",
+    "c - cheat/chat console"
+   ]
+  },
+  "derrickgold/ar-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "brief transition, but quality-of-life options and cheats remain active in both",
+    "Cheats · Infinite HP, MP, and SP; moonjump; invincibility; all magic; ranged sword; angel health; and a generic Pro Action Replay code pinner can all be toggled from the menu."
+   ]
+  },
+  "sergiomanzur/aw-recompiled": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "🧪 Per-Frame Cheat Engine: Armed RAM cheat code injection (`[Cheats]` in `config.ini`) evaluated continuously every frame."
+   ]
+  },
+  "alondero/aerogauge-recomp": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "The Cheats page offers Infinite Damage and Always First Position",
+    "Cheats are experimental; see Cheats for behavior and limits."
+   ]
+  },
+  "mustafasamer93/apocalypse-pc-native-port": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats: added a dedicated new menu for in-game cheats",
+    "Recomp Enhancements and Cheats: the game's main menu, under Options."
+   ]
+  },
+  "bryankruman/beetlerecomp": {
+   "how": "launcher",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "cheats / pause menu (RmlUi over RT64), internal-resolution scaling (defaults to display-native),",
+    "│ └── ui/ # in-app RmlUi launcher / settings / cheats / pause menu + renderer"
+   ]
+  },
+  "supermedo/bloodborne_pc": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats page: never die, stealth, silent footsteps, Rally that never fades, enemy control,"
+   ]
+  },
+  "12feihu/bodyharvest-pc-port": {
+   "how": "menu",
+   "keys": [
+    "F1"
+   ],
+   "flag": null,
+   "lines": [
+    "in-game cheats menu, terrain editor, save-state and bookmark systems, and",
+    "Cheats — every built-in BH cheat (21 of them, including dev-only",
+    "modder cheats (terrain editing, drain water, render-everything,",
+    "5. Run `bh_app.exe`, press F1 in-game for the cheats menu"
+   ]
+  },
+  "jeff-strutb/brally": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "season save/load, options and video modes, cheats and credits, a force-feedback",
+    "the camera views, all five controller layouts, the cheat codes, the credits"
+   ]
+  },
+  "bibendovsky/bstone": {
+   "how": "flag",
+   "keys": [],
+   "flag": "--cheats",
+   "lines": [
+    "12. Cheat key",
+    "`--cheats`",
+    "12 - Cheat key",
+    "Add option `--cheats` to enable these keys."
+   ]
+  },
+  "jorio/bugdom": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "SECRETS.md — Cheat codes!"
+   ]
+  },
+  "jorio/bugdom2": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "SECRETS - Cheat codes, etc."
+   ]
+  },
+  "crazyriddler/finesthourremastered": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "All off by default, in PC Settings > Cheats:"
+   ]
+  },
+  "spicywonda/castlevania-chronicles-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Controls &amp; cheats ·",
+    "All three packages share the same game changes. English menus, saved input bindings and the earlier cheat, respawn, SPU transfer and Hard Reset fixes are retained.",
+    "Cheats → Invincibility · Prevent contact damage and knockback.",
+    "Cheats · Toggle infinite health, hearts or lives, or disable all cheats."
+   ]
+  },
+  "arnoansems/catacombgl": {
+   "how": "menu",
+   "keys": [
+    "Backspace"
+   ],
+   "flag": null,
+   "lines": [
+    "Backspace - cheat codes in Armageddon and Apocalypse"
+   ]
+  },
+  "codepdbh/cbfd-recompiled-android-evolved": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "included: Skip Intro, Skip Any Cutscene and Cheats.",
+    "Cheats (`mods/cheats`): infinite health, infinite lives and a full wallet,"
+   ]
+  },
+  "sciaschi/cbfd-recompiled": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "included: Skip Intro, Skip Any Cutscene and Cheats.",
+    "Cheats (`mods/cheats`): infinite health, infinite lives and a full wallet,"
+   ]
+  },
+  "saulob/crackdown-xbox360-recompiled": {
+   "how": "launcher",
+   "keys": [
+    "F10"
+   ],
+   "flag": null,
+   "lines": [
+    "Cheats: 9 optional cheats set on the launcher's Cheats page, and changed for the session with the in-game menu on F10, including markers for the agility and hidden orbs you have not collected yet on the minimap and the pause menu's map.",
+    "F10 · Open the Cheats menu (single player)"
+   ]
+  },
+  "matteo842/crashbandicoot-launcher": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "This isn't an emulator. The original PS1 code is statically recompiled into a native program on your own machine, then given the upgrades the PS1 never could: a real 16:9 view of the world, high frame rates, high resolutions, mods and cheats.",
+    "Cheats. Infinite lives, level select (secret levels too), god mode, fly mode and all 26 gems on or off.",
+    "The extra features (widescreen, high frame rate, cheats) hook into the game's own logic. To do that we had to understand how Crash actually works inside, and for that we owe a lot to the people credited below.",
+    "`RecompOne.Runtime/` · PS1 HLE runtime (from RecompOne), plus frame pacing, widescreen and cheats"
+   ]
+  },
+  "zumbo06/crash2recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Settings > Cheats offers Keep 99 lives and a Damage setting with"
+   ]
+  },
+  "rinnegatamante/crash-team-racing-high-octane": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Playable Nitrous Oxide (Unlockable via the original Spyro 2 Demo cheatcode). (Credits: Original mod)",
+    "Moved all the gameplay cheatcodes in a dedicated submenu in Options. Cheats will also now be saved and kept between game sessions.",
+    "Made so that having any gameplay cheat enabled will disable the ability to save ghosts and records in Time Trial and Relic Race."
+   ]
+  },
+  "maxilure/mindover-recomp": {
+   "how": "menu",
+   "keys": [
+    "F5"
+   ],
+   "flag": null,
+   "lines": [
+    "F5 · Cheats menu, for testing: level ups, god mode, free camera, spawning, unlock everything",
+    "cheats/ the Cheats menu (F5)"
+   ]
+  },
+  "jorio/cromagrally": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "SECRETS – Cheat codes!"
+   ]
+  },
+  "sp00nznet/diddykongracing": {
+   "how": "menu",
+   "keys": [
+    "F1"
+   ],
+   "flag": null,
+   "lines": [
+    "sound, at any resolution and with GameShark cheats. Whole races and the other tracks haven't been played through yet.",
+    "deadzone, per-player devices and bindings, enabled cheats.",
+    "Settings > Cheats lists GameShark codes from `cheats.cht` next to the exe, in Project64's `.cht`",
+    "this ROM there if Project64 is installed (`Config\\Cheats\\Diddy Kong Racing (U) (M2) (V1.1).cht`);"
+   ]
+  },
+  "trinalord777/dk64recomp-nx": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "├── cheats.cht the GameShark codes (optional, see Cheats)",
+    "└── (created by the game: DK64.z64, saves/, nx_options.txt, cheats_enabled.txt, mod_config/,",
+    "Saves: `sdmc:/switch/dk64recomp/saves/`. Back up this folder, especially before playing with cheats or warps:",
+    "To update, extract the new release's zip over the old files: it replaces `dk64recomp.nro`, `cheats.cht` and the"
+   ]
+  },
+  "elliotttate/dkc2recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Settings, Controls, Assist Tools / Cheats, Credits, and Quit.",
+    "Cheats. This setting defaults off, persists as `AssistTools` in"
+   ]
+  },
+  "mstan/dkc2recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Settings, Controls, Assist Tools / Cheats, Credits, and Quit.",
+    "Enable Assist Tools / Cheats. This setting defaults off, persists as"
+   ]
+  },
+  "fabiangreffrath/crispy-doom": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "New Cheat Codes"
+   ]
+  },
+  "cacodemontube/doomsnesrecomp": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Fade transitions retain the selected world resolution. Music cheats hold",
+    "them when enabled. Native map controls, discovery and cheat arrows are preserved.",
+    "difficulty. The option is off by default and works independently of cheats.",
+    "Enable Mods → Doom PC Keyboard Cheats → PC keyboard cheats. It is off"
+   ]
+  },
+  "fabiangreffrath/woof": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheat Codes"
+   ]
+  },
+  "erick194/doomiirpg-re": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Original game cheat codes:"
+   ]
+  },
+  "erick194/doomrpg-re": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Original game cheat codes:"
+   ]
+  },
+  "citrongames/dora64": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "remappable controls, adjustable object draw distance and optional cheats.",
+    "camera sensitivity/inversion/mouse capture, cheats, audio, output window size,",
+    "The settings menu, fonts, controls, confirmation dialogs and FPS/autosave/cheat",
+    "Open Esc → Cheats for three independent options, all off by default:"
+   ]
+  },
+  "z3xox/tenkaichi3decomp": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "before it closes the game, and the window has an \"Exit game\" button. Its Cheats tab has \"Unlock everything\" (a debug function the game's"
+   ]
+  },
+  "jackrushante/dbz-super-saiya-densetsu-rust": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "HD text, new menus, a 60-slot bag, cheats, fast-forward and save states.",
+    "stacks of up to 99, with the story's objects pinned at the top; a Cheats screen lets you change the rules",
+    "X · confirm (a Cheats row: change its choice)",
+    "holds Cards, Status, Order, Text, Save, Cheats and Options. The corner"
+   ]
+  },
+  "saulob/dragons-crown-pro-pc": {
+   "how": "menu",
+   "keys": [
+    "F11",
+    "F10",
+    "Insert",
+    "R3 + L2"
+   ],
+   "flag": null,
+   "lines": [
+    "F11 switches Windowed and Borderless Fullscreen. F10 opens the Cheats menu (both can be changed under Port hotkeys on the Controls page). Insert (or R3 + L2) opens the in-game menu, with the display mode, VSync, FSR 1, sharpening and the frame counter."
+   ]
+  },
+  "therunaway5/phase-distorter": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "not complete its story events. Cheat switches reset when restarting or switching",
+    "survives restarts. Loading also restores its cheat switches. Snapshots are kept"
+   ]
+  },
+  "saulob/geometry-wars-retro-evolved-2-recompiled": {
+   "how": "launcher",
+   "keys": [
+    "F1",
+    "L3 + R3",
+    "F10"
+   ],
+   "flag": null,
+   "lines": [
+    "In-game Options menu (F1, or L3 + R3 on a controller): Display, Graphics, HDR, Gameplay, Controls and Cheats, without leaving the game; most settings apply live, a few restart-only ones offer Restart now",
+    "Add 100 Lives, a Movement Speed cheat and a debug bomb hotkey, alongside the existing cheats",
+    "Cheats (Invincible, Infinite Shield, Infinite Bombs, Movement Speed, Add 100 Lives) and Unlock all game modes, set in the launcher or the in-game Options menu, or toggled in game with F10"
+   ]
+  },
+  "felipeprado0/spartanport": {
+   "how": "menu",
+   "keys": [
+    "Insert",
+    "R3 + L2"
+   ],
+   "flag": null,
+   "lines": [
+    "Insert on the keyboard, or R3 + L2 on the controller, opens the port's menu: cheats,",
+    "Game: cheats (infinite health, magic, item meter, Rage of Sparta, max red orbs,"
+   ]
+  },
+  "felipeprado0/gow3_pc": {
+   "how": "menu",
+   "keys": [
+    "Insert",
+    "R3 + L2"
+   ],
+   "flag": null,
+   "lines": [
+    "Insert on the keyboard, or R3 + L2 on the controller, opens the port's menu: cheats,",
+    "Game: cheats (infinite health, magic, item meter, Rage of Sparta, max red orbs,"
+   ]
+  },
+  "jkdansereau/goldeneye-pc-port": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "All unlocked* (every level, 007 mode and the full cheat menu, without",
+    "level and cheat in memory only, and switching it off shows your real"
+   ]
+  },
+  "dubrovskiy-yevhen-stakelogic/gt-2-pc": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Native PC/Quest startup and a saved disc preference. Arcade and Simulation share graphics, HUD and control preferences while keeping separate memory cards. Desktop settings include HD media, intro visibility, all HUD switches, a profiler, gamepad bindings, DualSense pedals and both Arcade/Simulation cheats."
+   ]
+  },
+  "thelinkin3000/halo-ce-universal": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "New on the Switch: cheats and settings from an overlay. With",
+    "package by hardran3, you can turn on cheats (god mode, infinite ammo,"
+   ]
+  },
+  "saulob/hard-corps-uprising-recompiled": {
+   "how": "launcher",
+   "keys": [
+    "F10",
+    "F2"
+   ],
+   "flag": null,
+   "lines": [
+    "Cheats: press F10 in game for a cheat menu with Infinite Health, Infinite Lives, Rapid Fire, Jump Height 2x, Keep Weapons on Hit, Movement Speed 2x and Super Armor. Changes made in the menu last for the session.",
+    "Frame counter: shows the frame rate and frame time (`60 FPS 16.7 ms`) in the top-right corner, above the cheat menu. Hidden by default. Press F2 while playing to show or hide it for the session; the saved setting is not changed.",
+    "Infinite Health: normal damage no longer lowers a player's health",
+    "All cheats are off by default and configured on the Cheats page before Play. They apply to every character and to both players in local two-player."
+   ]
+  },
+  "hayatog/iss_pc": {
+   "how": "launcher",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "New launcher (Qt Quick), now the default: 10 screens, including Mods / Cheats and Advanced, the interface in Portuguese and English, and the game language following the system's by default. The old launcher (Tk) stays in the package as inFAMOUS Second Son (classic), as a fallback. See The launcher.",
+    "Mods / Cheats · enables cheat XML files and the optional boot logo movie skip (story cutscenes remain unchanged)",
+    "Launcher novo (Qt Quick), agora o padrão: com 10 telas, incluindo Mods / Cheats e Avançado, interface em português e inglês e o idioma do jogo seguindo o do sistema por padrão. O launcher antigo (Tk) continua no pacote como inFAMOUS Second Son (classic), de reserva. Veja O launcher."
+   ]
+  },
+  "vibintoast/jetforcegemini-recomp": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats: invulnerable, unlimited ammo, all weapons, all levels, skip the Tribal check."
+   ]
+  },
+  "goodshepherd23/jetmoto2-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Keyboard input, cheats menu · Two-player, gamepads ·",
+    "settings, cheats and memory cards.",
+    "Cheats in the top menu bar; choices are saved in `build\\cheats.json`.",
+    "Infinite Grapple - same record layout as the turbo cheat, not exercised in play yet."
+   ]
+  },
+  "lesca-191204/killzone-shadowfall-pc": {
+   "how": "launcher",
+   "keys": [
+    "F9",
+    "F10",
+    "Insert",
+    "Home"
+   ],
+   "flag": null,
+   "lines": [
+    "🎮 cheats, all chapters and free camera · 🧰 new launcher.",
+    "F9 · F10 · Free camera on / off · back to the player (Cheats)",
+    "🎮 Cheats · God mode, infinite ammo, no reload, unlimited sprint, Tactical Echo, all chapters, free camera · ⚡ Live",
+    "Launcher → Cheats · in game: Insert → Cheats (applied at once)*"
+   ]
+  },
+  "matymeatboy/rekhcom": {
+   "how": "menu",
+   "keys": [
+    "F5"
+   ],
+   "flag": null,
+   "lines": [
+    "default (a run plays as on the cartridge); turned on in Options > Cheats, F5 saves a"
+   ]
+  },
+  "yuutatsubasa/chaotixrecompiled": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "SOUND (the volumes), INPUT (touch controls, fast-forward, 6-button pad), EXTRAS (cheats,",
+    "Every finished run without cheats is kept, as a small file in `Ghosts/` in",
+    "OPTIONS > EXTRAS > CHEATS has 99 RINGS and SPEED SHOES, and `[Cheats] Codes` in the",
+    "not read. Achievements and time attack records pause while any cheat is on."
+   ]
+  },
+  "andrewaltimit/legend-of-legaia-re": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Playing and viewing - controls, enhancement toggles, cheats, minigames, saves, the browser build.",
+    "World drivers. Layers that hold a running World from outside: scene entry and tick, the pause menu, the battle HUD's and the field screens' reads, the cheats, the LGSF saves. \\",
+    "`engine-scene-host`, `engine-menu-runtime`, `engine-battle-hud`, `engine-world-views`, `engine-cheats`,",
+    "`save`, `gamedata`, `cheats`, `app-theme`"
+   ]
+  },
+  "nevercookfirst/dimensionsrecomp": {
+   "how": "menu",
+   "keys": [
+    "Del"
+   ],
+   "flag": null,
+   "lines": [
+    "`Del` opens a memory scanner built into the game - the same idea as Cheat",
+    "Engine, without needing Cheat Engine.",
+    "Save as cheat stores an address under a name in `cheats_5752084B.txt` beside",
+    "tools/cheatengine. The console command `membase` prints"
+   ]
+  },
+  "dogparty/ipodclickwheelrecomps": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "3. Cheats",
+    "Some games support cheats now! You can unlock all courses in Mini Golf and all chapters in Lost, for example."
+   ]
+  },
+  "freefrank/lostodysseyrecomp": {
+   "how": "menu",
+   "keys": [
+    "F1",
+    "LB + RB",
+    "L1 + R1"
+   ],
+   "flag": null,
+   "lines": [
+    "Debug menu · Render captures, Save Anywhere, encounter switches, teleport, fast-forward and cheats. See Debug menu.",
+    "Press F1, or LB+RB on a controller (L1+R1 on PlayStation layouts), to open or close the Debug Menu. The game pauses while it is open. It has three pages, Overview, Teleport and Cheats, and uses the keyboard or a controller.",
+    "Change Cheats category · Select the category row, then ← / → · LT / RT"
+   ]
+  },
+  "15cyber/marvel-nemesis-recomp": {
+   "how": "menu",
+   "keys": [
+    "F10"
+   ],
+   "flag": null,
+   "lines": [
+    "Built-in optional cheats. Separate player 1/player 2 health and energy modifiers, refill actions and content unlocks are accessible through PC Settings/F10. Session modifiers and normal-save unlock persistence are different behaviors; scripted deaths, ring-outs and objective failures are not all prevented."
+   ]
+  },
+  "bc160201983/medievil_2019_pc_port": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "PKG install / save backups, cheats, patches, mods, controls, diagnostics and log.",
+    "Developer cheat menu: MediEvil's own debug menu, left in the game by its developers and",
+    "the game's APP_VER and the eboot.bin hash (such as the 4K framebuffer pool); cheat edits that do"
+   ]
+  },
+  "jorio/nanosaur2": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "SECRETS - Cheat codes, etc."
+   ]
+  },
+  "maxdeadbear/naughtybear_restuff": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "unlock all cheat (optional)"
+   ]
+  },
+  "gamboozino/ngbrecomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Skippable intros and movies, unlock-all options for difficulties and costumes, optional cheats",
+    "Cheats (for the session only): infinite health, ninpo, essence, items, projectiles; golden scarabs"
+   ]
+  },
+  "openfodder/openfodder": {
+   "how": "flag",
+   "keys": [
+    "F9",
+    "F10"
+   ],
+   "flag": "--cheats",
+   "lines": [
+    "cheats Enable cheat keys",
+    "F9: Make current squad invincible (with --cheats enabled)",
+    "F10: Complete current map (with --cheats enabled)"
+   ]
+  },
+  "jgrennison/openttd-patches": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Add support for server admin use of money, magic bulldozer, tunnels and jet crashes cheats in multiplayer.",
+    "Add setting to allow non server admins to use the money cheat in multiplayer.",
+    "Allow clicking the money text in the cheats window to enter a quantity.",
+    "Add cheats to set inflation income and cost factors."
+   ]
+  },
+  "mr-shizzy/pacmanrecomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "video, audio, controls, game options, cheats and mods, each with a short",
+    "controls, extras, cheats and mods, all without leaving the game.",
+    "Infinite lives, start on any level from 1 to 255, Pac-Man speed (normal,",
+    "1.25x or 1.5x, ghosts unchanged) and invincibility. Games played with a cheat"
+   ]
+  },
+  "tekrantgaming/king-kong-recompiled": {
+   "how": "launcher",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "🏆 Achievements with Xbox 360 or Steam style pop-ups · 🕹️ All ten cheats as switches · 🎥 Camera shake, vibration and every control tunable",
+    "Cheats as switches &nbsp;·&nbsp; Achievements with pop-ups and your choice of sound",
+    "The game's own cheats, as switches instead of codes to type each time you play:",
+    "Cheats · typed as codes each time · switches in the launcher"
+   ]
+  },
+  "noahvl/birdman64": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "An \"Unlock everything\" cheat on the settings screen: gold medals on every"
+   ]
+  },
+  "tokeneffortports/recompiledsteel": {
+   "how": "menu",
+   "keys": [
+    "F1"
+   ],
+   "flag": null,
+   "lines": [
+    "Enhancements and Cheats. Change pages with LB / RB, or click or tap a tab. F1 (or clicking",
+    "A Cheats tab (game speed, cash), English or Japanese, mute in the"
+   ]
+  },
+  "brazilianhobbyist/project-re-visited-re3": {
+   "how": "launcher",
+   "keys": [
+    "F6",
+    "F7",
+    "F8",
+    "F11"
+   ],
+   "flag": null,
+   "lines": [
+    "Cheats (launcher toggles + F6/F7/F8) · Works in the maintainer's earlier tests; not re-tested since v1.6.0",
+    "Keyboard: Arrows = move · X = action · Z = run · A = inventory · Enter = start · Alt+Enter/F11 = fullscreen · F6/F7/F8 = cheats"
+   ]
+  },
+  "aikatore/recvx-enhanced-port": {
+   "how": "menu",
+   "keys": [
+    "F2",
+    "F3"
+   ],
+   "flag": null,
+   "lines": [
+    "Cheats and debug tools (F2), co-op window (F3)."
+   ]
+  },
+  "raccoonrecomp/residenteviloutbreakrecompiled": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats · The regular (original release) cheat set, each cheat its own option. · REO-Cheats",
+    "Greatest Hits Cheats · The Greatest Hits cheat set, each cheat its own switch. · REO-GreatestHits-Cheats",
+    "The mods take effect in the game prepared on your PC. The cheats that change the game's data or your save data need",
+    "nothing more. The cheats that change the game's code, and the two camera mods, also need their code sites compiled"
+   ]
+  },
+  "n64hub/rush-2049-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheat menu: unlocks every track and car without playing through Circuit. On the main menu, highlight OPTIONS",
+    "and press L+R+Z+C-Up+C-Right together (keyboard: E+R+Q+T+H) until CHEATS appears, and open it with A (Space).",
+    "Hotwire 2049: the CHEATS menu is on the main menu from the",
+    "start, and every cheat in it can be set without its button combo."
+   ]
+  },
+  "amazingalek/rush-2049-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheat menu: unlocks every track and car without playing through Circuit. On the main menu, highlight OPTIONS",
+    "and press L+R+Z+C-Up+C-Right together (keyboard: E+R+Q+T+H) until CHEATS appears, and open it with A (Space).",
+    "Hotwire 2049: the CHEATS menu is on the main menu from the",
+    "start, and every cheat in it can be set without its button combo."
+   ]
+  },
+  "invictus-potens/smt4-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "App Points, frame rate options and cheats, all switched from the in-game",
+    "cheat menu.",
+    "Cheats and enhancements",
+    "Points, each picked from the cheat menu while playing."
+   ]
+  },
+  "slickamogus/silent-hill-decomp": {
+   "how": "menu",
+   "keys": [
+    "F10"
+   ],
+   "flag": null,
+   "lines": [
+    "Quality of life. Mouse-clickable menus, quick save/load, reload key, quick-heal, an in-game PC Options menu and an F10 quick-options overlay (graphics / HUD / audio / cheats / debug, live while playing), minimap options, low-health screen glow (off by default), uncensored toggle.",
+    "Cheats & tools. In-game console (warps, spawns, god/noclip, live tuning of nearly everything), cheat menu, play as any of 14 characters, spawn any monster in any map (global monster pool), raised enemy cap, collision visualizer, keyframe inspector.",
+    "Cheats & tools (top-row keys):",
+    "Free camera (also toggleable from the F10 quick-options Cheats page, no dev controls needed there):"
+   ]
+  },
+  "matt122shenk/silent-hill-pc-enhanced": {
+   "how": "menu",
+   "keys": [
+    "F10"
+   ],
+   "flag": null,
+   "lines": [
+    "Quality of life. Mouse-clickable menus, quick save/load, reload key, quick-heal, an in-game PC Options menu and an F10 quick-options overlay (graphics / HUD / audio / cheats / debug, live while playing), minimap options, low-health screen glow (off by default), uncensored toggle.",
+    "Cheats & tools. In-game console (warps, spawns, god/noclip, live tuning of nearly everything), cheat menu, play as any of 14 characters, spawn any monster in any map (global monster pool), raised enemy cap, collision visualizer, keyframe inspector.",
+    "Cheats & tools (top-row keys):",
+    "Free camera (also toggleable from the F10 quick-options Cheats page, no dev controls needed there):"
+   ]
+  },
+  "sc2kfix/sc2kfix": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Multiple cheat codes from other ports of the game have been restored."
+   ]
+  },
+  "jackpoison-prog/ringout": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "and each ships its own cheat list and PGO profile",
+    "System, Controls, Cheats and Mods tabs",
+    "Cheat codes for all three regions in `GameSettings/`, none enabled until you",
+    "`work/mg_userdir/GameSettings/` · the cheat lists this project authored (US, JP)"
+   ]
+  },
+  "sp00nznet/racer": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheat codes: `All Pods, tracks unlocked!!!`"
+   ]
+  },
+  "jedijosh920/swrots-pc": {
+   "how": "console",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Unlock everything with the developers' own cheat, `unlockprofile` (debug console)."
+   ]
+  },
+  "tmcleroy/sfa2-recomp": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "training mode and the other modes, save states, speed, the cheats and every feature.",
+    "Also: save states in nine slots, free play, and cheats (no damage, one-hit knockouts, full gauge, infinite"
+   ]
+  },
+  "tanookistudios/supermarioallstarsrecomp": {
+   "how": "launcher",
+   "keys": [
+    "Home"
+   ],
+   "flag": null,
+   "lines": [
+    "rebuilt as a real program for your computer. Crisp pixels at any size, a proper launcher, controller support, and cheats.",
+    "3. Set any options you like (the Game button has the cheats and sound switches), then press Play.",
+    "connected), and the ☰ button, the Back gesture or a controller's Home button opens the menu: cheats,",
+    "Launcher. Set everything before you play: display, sound, controls, cheats."
+   ]
+  },
+  "griches/ps5_sunshine": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "the PC port's cheats (god mode, infinite lives and so on). Saves and settings",
+    "Settings · The touch pad's menu: inverted FLUDD aim and camera, camera shake, the performance overlay, resolution, frame rate; choices kept across a restart · Every row; the cheats below them"
+   ]
+  },
+  "999sian/melee-pc": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats: Unlock Everything, hazardless (Frozen) Pokémon Stadium, free pause"
+   ]
+  },
+  "shagg88/athelas": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Gameplay: damage taken, enemy damage, every level and character unlocked, every hero in levels you've completed, the games' own cheat codes as switches, and kill points in The Two Towers (all off by default)",
+    "The game's text in nine languages (our own translations), the game's own cheat codes as switches, and"
+   ]
+  },
+  "abilliontokens/sims1-recomp": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Windows, render scale, anisotropic filtering, key bindings, and this game's own typed-word cheats"
+   ]
+  },
+  "abilliontokens/bustinout-recomp": {
+   "how": "menu",
+   "keys": [
+    "F1"
+   ],
+   "flag": null,
+   "lines": [
+    "vsync, frame cap, render scale, anisotropic filtering, HDR on Windows, and the Cheats",
+    "The F1 panel's Cheats section enters the game's own pad codes the game's own way",
+    "(log: `cheats: entered Give Money (code 1): on, the game's cheat mask is now 02`,"
+   ]
+  },
+  "corsixth/corsixth": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats (naughty!)"
+   ]
+  },
+  "darhkfox/busterbustsloose": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "with widescreen, modern display options, gamepad support, cheats, a level select",
+    "Cheats",
+    "and star cheats, lives stop at 99 (a 1-up at 99 showed 00).",
+    "Cheat addresses are based on the published Pro Action Replay codes for the USA release."
+   ]
+  },
+  "capridog/spaceranger": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheat codes"
+   ]
+  },
+  "12feihu/twistedmetal2recomp": {
+   "how": "menu",
+   "keys": [
+    "F1"
+   ],
+   "flag": null,
+   "lines": [
+    "`tm2.debug` · The cheat engine, F1 menu and control server described above",
+    "mods/ .psxmod packages and the cheat/value tables"
+   ]
+  },
+  "synthwave-pixel/ultima5": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats, if you would rather skip the grinding.",
+    "Cheats; Classic input still lets you type anything. What a townsman"
+   ]
+  },
+  "sean-gugler/u4remastereda2": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "During the initial loading screen, before the animated intro, press 'T' to see the \"Trainer\" menu and enable cheat codes.",
+    "(M) Trainer menu to optionally enable cheat codes."
+   ]
+  },
+  "supermedo/uncharted_pc": {
+   "how": "launcher",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Cheats page (infinite health and ammo per game), launcher languages, your own covers and Steam art."
+   ]
+  },
+  "tmcleroy/vampire-savior-recomp": {
+   "how": "codes",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "with the training mode and the other modes, save states, speed, the cheats and every feature.",
+    "Also: save states in nine slots, free play, and a few cheats (no damage, one-hit knockouts, full"
+   ]
+  },
+  "mr-finster/vf1-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Random fighters, secret characters and cheats (menu > Cheats) · Working: see below",
+    "Menu > Cheats > Player 1 fighter (and Player 2 fighter):",
+    "Menu > Cheats > Player 1 fighter (or Player 2 fighter) > Secret character, then Character: a fighter",
+    "The rest of Cheats: Kage's mask (a hit can knock his hood back, as on a cabinet played for nine hours), infinite"
+   ]
+  },
+  "mr-finster/vf2-recomp": {
+   "how": "menu",
+   "keys": [],
+   "flag": null,
+   "lines": [
+    "Secret characters (Menu > Cheats): Dural, MUE and KOJAC · Working",
+    "Menu > Cheats > Secret character puts a fighter the arcade never let you pick in Akira's spot on the player",
+    "turns into Dural by accident; Cheats > Secret character gives him there. Holding Up while you pick gives that",
+    "Esc · Menu: display (render scale, picture shape, antialiasing, 3D renderer...), sound, game, arcade settings, controls, cheats, quit"
+   ]
+  }
+ }
+}
