@@ -1,0 +1,1075 @@
+{
+ "updated": "2026-10-25",
+ "repos": {
+  "tekrantgaming/sms-pc-port": {
+   "opts": [
+    {
+     "id": "fps",
+     "cat": "fps",
+     "kind": "env",
+     "key": "SMS_FRAME_RATE",
+     "t": [
+      "Taxa de quadros",
+      "Frame rate"
+     ],
+     "d": [
+      "Logos, menus e filmes continuam em 30.",
+      "Logos, menus and movies stay at 30."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port (60)",
+       "Port default (60)"
+      ],
+      [
+       "30",
+       "30 (como no GameCube)",
+       "30 (GameCube native)"
+      ],
+      [
+       "120",
+       "120 (mais suave)",
+       "120 (smoother)"
+      ]
+     ]
+    },
+    {
+     "id": "scale",
+     "cat": "visual",
+     "kind": "env",
+     "key": "SMS_GX_SCALE",
+     "t": [
+      "Resolução interna",
+      "Internal resolution"
+     ],
+     "d": [
+      "Quantas vezes a resolução do GameCube o jogo desenha.",
+      "How many times the GameCube's resolution the game renders."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "1",
+       "1× (original, mais leve)",
+       "1× (original, lightest)"
+      ],
+      [
+       "2",
+       "2×",
+       "2×"
+      ],
+      [
+       "3",
+       "3×",
+       "3×"
+      ],
+      [
+       "4",
+       "4× (mais pesado)",
+       "4× (heaviest)"
+      ]
+     ]
+    },
+    {
+     "id": "fsr",
+     "cat": "perf",
+     "kind": "env",
+     "keys": [
+      "SMS_PRESENT_FILTER",
+      "SMS_FSR_MODE"
+     ],
+     "t": [
+      "Upscaling AMD FSR",
+      "AMD FSR upscaling"
+     ],
+     "d": [
+      "Desenha abaixo da resolução da tela e amplia: mais FPS em PC fraco. Substitui a resolução interna.",
+      "Renders below the screen's resolution and upscales: more FPS on weaker PCs. Replaces the internal resolution."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       {
+        "SMS_PRESENT_FILTER": "fsr",
+        "SMS_FSR_MODE": "quality"
+       },
+       "Qualidade (67%)",
+       "Quality (67%)"
+      ],
+      [
+       {
+        "SMS_PRESENT_FILTER": "fsr",
+        "SMS_FSR_MODE": "balanced"
+       },
+       "Equilibrado (59%)",
+       "Balanced (59%)"
+      ],
+      [
+       {
+        "SMS_PRESENT_FILTER": "fsr",
+        "SMS_FSR_MODE": "performance"
+       },
+       "Desempenho (50%)",
+       "Performance (50%)"
+      ]
+     ]
+    },
+    {
+     "id": "wide",
+     "cat": "visual",
+     "kind": "env",
+     "key": "SMS_WIDESCREEN",
+     "t": [
+      "Tela widescreen",
+      "Widescreen"
+     ],
+     "d": [
+      "Visão mais larga, com o HUD e os menus em 4:3 no meio.",
+      "A wider view, with the HUD and menus kept 4:3 in the middle."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado (4:3)",
+       "Off (4:3)"
+      ],
+      [
+       "16:9",
+       "16:9",
+       "16:9"
+      ],
+      [
+       "21:9",
+       "21:9 (ultrawide)",
+       "21:9 (ultrawide)"
+      ],
+      [
+       "16:10",
+       "16:10",
+       "16:10"
+      ]
+     ]
+    },
+    {
+     "id": "msaa",
+     "cat": "visual",
+     "kind": "env",
+     "key": "SMS_MSAA",
+     "t": [
+      "Antisserrilhado MSAA",
+      "MSAA anti-aliasing"
+     ],
+     "d": [
+      "Bordas mais lisas; quanto maior, mais pesado.",
+      "Smoother edges; higher is heavier."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "2",
+       "2×",
+       "2×"
+      ],
+      [
+       "4",
+       "4×",
+       "4×"
+      ],
+      [
+       "8",
+       "8×",
+       "8×"
+      ]
+     ]
+    },
+    {
+     "id": "fxaa",
+     "cat": "visual",
+     "kind": "env",
+     "key": "SMS_FXAA",
+     "toggle": true,
+     "t": [
+      "FXAA",
+      "FXAA"
+     ],
+     "d": [
+      "Suaviza o que o MSAA não pega (folhagem, grades). Leve.",
+      "Smooths what MSAA misses (foliage, fences). Light."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    },
+    {
+     "id": "aniso",
+     "cat": "visual",
+     "kind": "env",
+     "key": "SMS_ANISO",
+     "t": [
+      "Filtro anisotrópico",
+      "Anisotropic filtering"
+     ],
+     "d": [
+      "Texturas mais nítidas no chão e nas paredes em ângulo.",
+      "Sharper textures on floors and walls at an angle."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "4",
+       "4×",
+       "4×"
+      ],
+      [
+       "8",
+       "8×",
+       "8×"
+      ],
+      [
+       "16",
+       "16×",
+       "16×"
+      ]
+     ]
+    },
+    {
+     "id": "vsync",
+     "cat": "fps",
+     "kind": "env",
+     "key": "SMS_VSYNC",
+     "t": [
+      "VSync",
+      "VSync"
+     ],
+     "d": [
+      "Tira o \"rasgo\" da imagem; numa tela de 60 Hz trava o jogo em 60.",
+      "Removes tearing; on a 60 Hz screen it caps the game at 60."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado (padrão)",
+       "Off (default)"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ],
+      [
+       "adaptive",
+       "Adaptativo",
+       "Adaptive"
+      ]
+     ]
+    },
+    {
+     "id": "haze",
+     "cat": "perf",
+     "kind": "env",
+     "key": "SMS_HEAT_HAZE",
+     "toggle": true,
+     "t": [
+      "Tirar o efeito de calor",
+      "Remove heat haze"
+     ],
+     "d": [
+      "Desliga a distorção de calor das áreas ensolaradas.",
+      "Turns off the heat shimmer in sunny areas."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "0",
+       "Ligado",
+       "On"
+      ]
+     ]
+    },
+    {
+     "id": "movies",
+     "cat": "qol",
+     "kind": "env",
+     "key": "SMS_SKIP_MOVIES",
+     "toggle": true,
+     "t": [
+      "Pular cutscenes",
+      "Skip cutscenes"
+     ],
+     "d": [
+      "As animações dos portais continuam.",
+      "Portal animations keep playing."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    },
+    {
+     "id": "full",
+     "cat": "qol",
+     "kind": "env",
+     "key": "SMS_FULLSCREEN",
+     "toggle": true,
+     "t": [
+      "Tela cheia sem borda",
+      "Borderless fullscreen"
+     ],
+     "d": [
+      "Abre na resolução da área de trabalho. F11 ou Alt+Enter alternam.",
+      "Opens at the desktop's resolution. F11 or Alt+Enter toggles it."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "999sian/melee-pc": {
+   "opts": [
+    {
+     "id": "backend",
+     "cat": "compat",
+     "kind": "env",
+     "key": "MELEE_BACKEND",
+     "t": [
+      "API gráfica",
+      "Graphics API"
+     ],
+     "d": [
+      "Troque se o jogo travar ou a imagem sair errada na sua placa.",
+      "Switch it if the game crashes or the picture looks wrong on your GPU."
+     ],
+     "choices": [
+      [
+       null,
+       "Automático",
+       "Automatic"
+      ],
+      [
+       "d3d12",
+       "DirectX 12",
+       "DirectX 12"
+      ],
+      [
+       "vulkan",
+       "Vulkan",
+       "Vulkan"
+      ]
+     ]
+    },
+    {
+     "id": "vsync",
+     "cat": "fps",
+     "kind": "env",
+     "key": "MELEE_VSYNC",
+     "t": [
+      "VSync",
+      "VSync"
+     ],
+     "d": [
+      "Desligado tem menos atraso nos comandos.",
+      "Off has less input lag."
+     ],
+     "choices": [
+      [
+       null,
+       "Como no launcher",
+       "As in the launcher"
+      ],
+      [
+       "0",
+       "Desligado (menos atraso)",
+       "Off (less lag)"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    },
+    {
+     "id": "jobs",
+     "cat": "perf",
+     "kind": "env",
+     "key": "MELEE_PIPELINE_JOBS",
+     "t": [
+      "Compilação de shaders",
+      "Shader compilation"
+     ],
+     "d": [
+      "Threads que preparam os shaders em segundo plano. Mais threads, menos travadinhas na primeira vez.",
+      "Threads that prepare shaders in the background. More threads, fewer first-time hitches."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão (metade dos núcleos)",
+       "Default (half the cores)"
+      ],
+      [
+       "8",
+       "8 (menos travadinhas)",
+       "8 (fewer hitches)"
+      ],
+      [
+       "2",
+       "2 (PC fraco)",
+       "2 (weak PC)"
+      ]
+     ]
+    },
+    {
+     "id": "fades",
+     "cat": "qol",
+     "kind": "env",
+     "key": "MELEE_FAST_FADES",
+     "toggle": true,
+     "t": [
+      "Transições rápidas",
+      "Fast fades"
+     ],
+     "d": [
+      "Encurta os escurecimentos entre as telas.",
+      "Shortens the fades between screens."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "florinp93/hells-gate-recomp": {
+   "opts": [
+    {
+     "id": "fps",
+     "cat": "fps",
+     "kind": "arg",
+     "key": "--video_mode_refresh_rate",
+     "t": [
+      "Taxa de quadros",
+      "Frame rate"
+     ],
+     "d": [
+      "Use múltiplos de 60.",
+      "Use multiples of 60."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão (60)",
+       "Default (60)"
+      ],
+      [
+       "120",
+       "120",
+       "120"
+      ],
+      [
+       "180",
+       "180",
+       "180"
+      ],
+      [
+       "240",
+       "240",
+       "240"
+      ]
+     ]
+    },
+    {
+     "id": "smaa",
+     "cat": "perf",
+     "kind": "arg",
+     "key": "--dante_smaa",
+     "t": [
+      "Antisserrilhado SMAA",
+      "SMAA anti-aliasing"
+     ],
+     "d": [
+      "Desligar dá um pouco mais de FPS.",
+      "Turning it off gives a bit more FPS."
+     ],
+     "choices": [
+      [
+       null,
+       "Ligado (padrão)",
+       "On (default)"
+      ],
+      [
+       "false",
+       "Desligado (mais FPS)",
+       "Off (more FPS)"
+      ]
+     ]
+    },
+    {
+     "id": "shadow",
+     "cat": "visual",
+     "kind": "arg",
+     "key": "--dante_shadow_scale",
+     "t": [
+      "Qualidade das sombras",
+      "Shadow quality"
+     ],
+     "d": [
+      "Tamanho do mapa de sombras, de 1 a 4.",
+      "Shadow map scale, 1 to 4."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "1",
+       "1 (mais leve)",
+       "1 (lightest)"
+      ],
+      [
+       "2",
+       "2",
+       "2"
+      ],
+      [
+       "3",
+       "3",
+       "3"
+      ],
+      [
+       "4",
+       "4 (melhor)",
+       "4 (best)"
+      ]
+     ]
+    },
+    {
+     "id": "renderer",
+     "cat": "compat",
+     "kind": "arg",
+     "key": "--renderer",
+     "t": [
+      "Renderizador",
+      "Renderer"
+     ],
+     "d": [
+      "Se o renderizador nativo der problema na sua máquina, use o Xenos (D3D12).",
+      "If the native renderer misbehaves on your machine, use Xenos (D3D12)."
+     ],
+     "choices": [
+      [
+       null,
+       "Nativo (padrão)",
+       "Native (default)"
+      ],
+      [
+       "xenos",
+       "Xenos / D3D12",
+       "Xenos / D3D12"
+      ]
+     ]
+    }
+   ]
+  },
+  "freefrank/lostodysseyrecomp": {
+   "opts": [
+    {
+     "id": "api",
+     "cat": "compat",
+     "kind": "env",
+     "key": "LO_GRAPHICS_API",
+     "t": [
+      "API gráfica",
+      "Graphics API"
+     ],
+     "d": [
+      "Troque se o jogo travar ou a imagem sair errada.",
+      "Switch it if the game crashes or the picture looks wrong."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "d3d12",
+       "DirectX 12",
+       "DirectX 12"
+      ],
+      [
+       "vulkan",
+       "Vulkan",
+       "Vulkan"
+      ]
+     ]
+    },
+    {
+     "id": "fps",
+     "cat": "fps",
+     "kind": "env",
+     "key": "LO_FPS",
+     "t": [
+      "Limite de FPS",
+      "FPS cap"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "60",
+       "60",
+       "60"
+      ],
+      [
+       "120",
+       "120",
+       "120"
+      ],
+      [
+       "0",
+       "Sem limite",
+       "Uncapped"
+      ]
+     ]
+    },
+    {
+     "id": "load",
+     "cat": "qol",
+     "kind": "env",
+     "key": "LO_FAST_LOADING",
+     "t": [
+      "Carregamento",
+      "Loading"
+     ],
+     "d": [
+      "Rápido encurta as transições de carregamento.",
+      "Fast shortens the loading transitions."
+     ],
+     "choices": [
+      [
+       null,
+       "Como nas configurações",
+       "As in the settings"
+      ],
+      [
+       "1",
+       "Rápido",
+       "Fast"
+      ],
+      [
+       "0",
+       "Original",
+       "Original"
+      ]
+     ]
+    }
+   ]
+  },
+  "frankhun88453/cod3recomp": {
+   "opts": [
+    {
+     "id": "unlock",
+     "cat": "fps",
+     "kind": "env",
+     "key": "COD3_UNLOCKFPS",
+     "toggle": true,
+     "t": [
+      "FPS livre",
+      "Unlocked FPS"
+     ],
+     "d": [
+      "Tira a trava de FPS do jogo.",
+      "Removes the game's frame cap."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    },
+    {
+     "id": "vsync",
+     "cat": "fps",
+     "kind": "env",
+     "key": "COD3_VSYNC",
+     "t": [
+      "VSync",
+      "VSync"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Como nas configurações",
+       "As in the settings"
+      ],
+      [
+       "0",
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    },
+    {
+     "id": "films",
+     "cat": "qol",
+     "kind": "env",
+     "key": "COD3_NOFILMS",
+     "toggle": true,
+     "t": [
+      "Pular os filmes de abertura",
+      "Skip intro films"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "holdmysocks/mcla-recomp": {
+   "opts": [
+    {
+     "id": "fps",
+     "cat": "fps",
+     "kind": "arg",
+     "key": "--mcla_fps",
+     "t": [
+      "Taxa de quadros",
+      "Frame rate"
+     ],
+     "d": [
+      "Também dá para mudar no menu de pausa (DISPLAY).",
+      "Also in the pause menu (DISPLAY)."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão (30)",
+       "Default (30)"
+      ],
+      [
+       "60",
+       "60",
+       "60"
+      ],
+      [
+       "120",
+       "120",
+       "120"
+      ],
+      [
+       "0",
+       "Sem limite",
+       "Uncapped"
+      ]
+     ]
+    },
+    {
+     "id": "full",
+     "cat": "qol",
+     "kind": "arg",
+     "key": "--fullscreen",
+     "toggle": true,
+     "t": [
+      "Tela cheia",
+      "Fullscreen"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "true",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "hayatog/tlg_pc": {
+   "opts": [
+    {
+     "id": "fps",
+     "cat": "fps",
+     "kind": "env",
+     "key": "TLG_FPS",
+     "exp": true,
+     "t": [
+      "Taxa de quadros",
+      "Frame rate"
+     ],
+     "d": [
+      "60 e livre são experimentais. A mesma opção fica no launcher do port (Vídeo).",
+      "60 and unlocked are experimental. The same option is in the port's launcher (Video)."
+     ],
+     "choices": [
+      [
+       null,
+       "30 (padrão, como no PS4)",
+       "30 (default, as on PS4)"
+      ],
+      [
+       "60",
+       "60",
+       "60"
+      ],
+      [
+       "unlocked",
+       "Livre",
+       "Unlocked"
+      ]
+     ]
+    }
+   ]
+  },
+  "try/opengothic": {
+   "opts": [
+    {
+     "id": "dx12",
+     "cat": "compat",
+     "kind": "arg",
+     "key": "-dx12",
+     "toggle": true,
+     "t": [
+      "Forçar DirectX 12",
+      "Force DirectX 12"
+     ],
+     "d": [
+      "Usa DirectX 12 em vez de Vulkan. Ajuda em placas com Vulkan problemático.",
+      "Uses DirectX 12 instead of Vulkan. Helps on GPUs with troublesome Vulkan."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "z3xox/tenkaichi3decomp": {
+   "opts": [
+    {
+     "id": "gl",
+     "cat": "compat",
+     "kind": "env",
+     "key": "BT3_GPU_API",
+     "toggle": true,
+     "t": [
+      "Modo compatível (OpenGL)",
+      "Compatibility mode (OpenGL)"
+     ],
+     "d": [
+      "Para placas antigas em que o Vulkan abre mas não funciona direito (ex.: Intel Ivy Bridge).",
+      "For older GPUs where Vulkan starts but is incomplete (e.g. Intel Ivy Bridge)."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "gl",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "mchughalex/skate3recomp": {
+   "opts": [
+    {
+     "id": "window",
+     "cat": "qol",
+     "kind": "arg",
+     "key": "--fullscreen",
+     "toggle": true,
+     "t": [
+      "Abrir em janela",
+      "Start windowed"
+     ],
+     "d": [
+      "O jogo abre em tela cheia por padrão.",
+      "The game starts fullscreen by default."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "false",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "bc160201983/medievil_2019_pc_port": {
+   "opts": [
+    {
+     "id": "safegpu",
+     "cat": "compat",
+     "kind": "env",
+     "key": "GOW3_VULKAN_COMPAT",
+     "toggle": true,
+     "t": [
+      "Modo seguro de GPU",
+      "Safe GPU mode"
+     ],
+     "d": [
+      "Para placas AMD mais antigas. Também fica no launcher (Desempenho).",
+      "For older AMD GPUs. Also in the launcher (Performance)."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "gnsb/ufc-3-ps4-port-linux-windows": {
+   "tips": [
+    [
+     "Modo PS4 Pro, no launcher do port: o jogo desenha em 1080p em vez de 900p, com FPS um pouco menor.",
+     "PS4 Pro mode, in the port's launcher: the game renders 1080p instead of 900p, at a slightly lower frame rate."
+    ],
+    [
+     "Limite de FPS no launcher: 60, 90, 120, 144 ou 240. Sem limite é o padrão no Windows.",
+     "FPS limit in the launcher: 60, 90, 120, 144 or 240. Unlimited is the Windows default."
+    ]
+   ]
+  },
+  "getlostin/ctr-nitrofueled-pc": {
+   "tips": [
+    [
+     "Modo PS4 Pro e taxa de quadros (30 ou 60) ficam no launcher do port.",
+     "PS4 Pro mode and frame rate (30 or 60) are in the port's launcher."
+    ],
+    [
+     "A primeira partida compila os shaders aos poucos; as próximas já carregam do cache.",
+     "The first run compiles shaders as it goes; later runs load them from the cache."
+    ]
+   ]
+  }
+ }
+}
