@@ -81,7 +81,7 @@ O RGARAGE HUB é **gratuito**. Se ele te ajudou a jogar, **apoie com qualquer va
 
 ## ✉️ Contato e parcerias
 
-Quer participar do projeto, fazer uma parceria ou licenciar o RGARAGE HUB? Escreva para **[whelissondias2000@gmail.com](mailto:whelissondias2000@gmail.com)**.
+Quer participar do projeto, fazer uma parceria ou licenciar o RGARAGE HUB? Escreva para **[brunoduartza@gmail.com](mailto:brunoduartza@gmail.com)**.
 
 Achou um problema no hub? Abra uma [issue](../../issues). Problema dentro de um jogo: no repositório do autor do port (o link fica na página do jogo, no hub).
 
@@ -108,7 +108,7 @@ Achou um problema no hub? Abra uma [issue](../../issues). Problema dentro de um 
 
 **❤️ Support the project**: the hub is free. Donate **any amount, starting at US$ 1**, on **[Ko-fi](https://ko-fi.com/duarttbr)** (card or PayPal, no account needed), through the **Support** button at the top of every screen in the app, or give this repo a ⭐.
 
-**✉️ Contact and partnerships**: want to join the project, partner up or license RGARAGE HUB? Write to **[whelissondias2000@gmail.com](mailto:whelissondias2000@gmail.com)**.
+**✉️ Contact and partnerships**: want to join the project, partner up or license RGARAGE HUB? Write to **[brunoduartza@gmail.com](mailto:brunoduartza@gmail.com)**.
 
 ---
 
