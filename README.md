@@ -42,7 +42,7 @@ Os ports de PC e as recompilações de jogos de console estão espalhados em mil
 - 🎮 **Tudo no controle**: os botões na tela viram os do seu controle (**A B X Y** do Xbox, **✕ ○ △ □** do PlayStation ou o layout da Nintendo). Modo TV incluído.
 - ⚡ **Otimizar**: mostra o seu PC e o uso agora, aplica ajustes do Windows para jogos com um clique e desfaz tudo quando quiser. Avisa sobre os programas pesados abertos.
 - 🧰 **Problemas e soluções**: lê o log quando o jogo fecha com erro, traz as correções recomendadas pela comunidade e separa os relatos do GitHub que batem com a sua placa e o seu processador.
-- 🎮 **Adicionar à Steam** com capa, banner e fundo (abre pelo hub, inclusive no Big Picture), **Me avise quando sair** para jogos ainda sem build para PC e **Atualizar todos** de uma vez.
+- 🎮 **Adicionar à Steam** com capa, banner e fundo (abre pelo hub, inclusive no Big Picture), **Me avise quando sair** para jogos ainda sem build para PC, **Atualizar todos** de uma vez e **mover o jogo para outro disco** quando o SSD encher.
 - 🎯 **Cheats** de 95 ports, **atalho do jogo na área de trabalho**, **modo Parsec** para jogar com amigos à distância, **guias e vídeos** no seu idioma, **perfis** com biblioteca, favoritos e tempo de jogo, **modo leve** para PC mais fraco e interface em **7 idiomas**.
 
 <div align="center">
@@ -107,7 +107,7 @@ Achou um problema no hub? Abra uma [issue](../../issues). Problema dentro de um 
 - **Full controller support**: on-screen buttons match your controller (Xbox, PlayStation or Nintendo). TV mode included.
 - **Optimize**: shows your PC and live usage, applies Windows gaming tweaks in one click and undoes everything whenever you want.
 - **Problems and fixes**: reads the log when a game crashes, offers community-recommended fixes and filters GitHub reports that match your GPU and CPU.
-- **Add to Steam** with cover, banner and background (starts through the hub, Big Picture too), **Notify me when it's out** for games with no PC build yet, and **Update all** at once.
+- **Add to Steam** with cover, banner and background (starts through the hub, Big Picture too), **Notify me when it's out** for games with no PC build yet, **Update all** at once and **move a game to another drive** when your SSD fills up.
 - **Cheats** for 95 ports, **desktop shortcuts**, **Parsec mode** to play with friends remotely, **guides and videos** in your language, **profiles** with library, favorites and play time, **light mode** for weaker PCs and a UI in **7 languages**.
 
 **Important**: RGARAGE HUB does **not** download games or point to where to get them. Ports run with the files of **your original copy**. Games and trademarks belong to their owners.
