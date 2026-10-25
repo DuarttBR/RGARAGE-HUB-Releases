@@ -5,7 +5,6 @@
    "opts": [
     {
      "id": "fps",
-     "cat": "fps",
      "kind": "env",
      "key": "SMS_FRAME_RATE",
      "t": [
@@ -32,16 +31,16 @@
        "120 (mais suave)",
        "120 (smoother)"
       ]
-     ]
+     ],
+     "main": true
     },
     {
      "id": "scale",
-     "cat": "visual",
      "kind": "env",
      "key": "SMS_GX_SCALE",
      "t": [
-      "Resolução interna",
-      "Internal resolution"
+      "Nitidez da imagem",
+      "Image sharpness"
      ],
      "d": [
       "Quantas vezes a resolução do GameCube o jogo desenha.",
@@ -73,19 +72,27 @@
        "4× (mais pesado)",
        "4× (heaviest)"
       ]
-     ]
+     ],
+     "tech": [
+      "resolução interna",
+      "internal resolution"
+     ],
+     "imp": [
+      "look",
+      "heavy"
+     ],
+     "main": true
     },
     {
      "id": "fsr",
-     "cat": "perf",
      "kind": "env",
      "keys": [
       "SMS_PRESENT_FILTER",
       "SMS_FSR_MODE"
      ],
      "t": [
-      "Upscaling AMD FSR",
-      "AMD FSR upscaling"
+      "Modo leve com ampliação",
+      "Light mode with upscaling"
      ],
      "d": [
       "Desenha abaixo da resolução da tela e amplia: mais FPS em PC fraco. Substitui a resolução interna.",
@@ -121,16 +128,20 @@
        "Desempenho (50%)",
        "Performance (50%)"
       ]
-     ]
+     ],
+     "tech": "AMD FSR",
+     "imp": [
+      "fps"
+     ],
+     "main": true
     },
     {
      "id": "wide",
-     "cat": "visual",
      "kind": "env",
      "key": "SMS_WIDESCREEN",
      "t": [
-      "Tela widescreen",
-      "Widescreen"
+      "Tela larga",
+      "Wide screen"
      ],
      "d": [
       "Visão mais larga, com o HUD e os menus em 4:3 no meio.",
@@ -157,16 +168,17 @@
        "16:10",
        "16:10"
       ]
-     ]
+     ],
+     "tech": "widescreen",
+     "main": true
     },
     {
      "id": "msaa",
-     "cat": "visual",
      "kind": "env",
      "key": "SMS_MSAA",
      "t": [
-      "Antisserrilhado MSAA",
-      "MSAA anti-aliasing"
+      "Bordas mais lisas",
+      "Smoother edges"
      ],
      "d": [
       "Bordas mais lisas; quanto maior, mais pesado.",
@@ -193,17 +205,21 @@
        "8×",
        "8×"
       ]
+     ],
+     "tech": "MSAA",
+     "imp": [
+      "look",
+      "heavy"
      ]
     },
     {
      "id": "fxaa",
-     "cat": "visual",
      "kind": "env",
      "key": "SMS_FXAA",
      "toggle": true,
      "t": [
-      "FXAA",
-      "FXAA"
+      "Bordas mais lisas (leve)",
+      "Smoother edges (light)"
      ],
      "d": [
       "Suaviza o que o MSAA não pega (folhagem, grades). Leve.",
@@ -220,16 +236,19 @@
        "Ligado",
        "On"
       ]
+     ],
+     "tech": "FXAA",
+     "imp": [
+      "look"
      ]
     },
     {
      "id": "aniso",
-     "cat": "visual",
      "kind": "env",
      "key": "SMS_ANISO",
      "t": [
-      "Filtro anisotrópico",
-      "Anisotropic filtering"
+      "Texturas mais nítidas",
+      "Sharper textures"
      ],
      "d": [
       "Texturas mais nítidas no chão e nas paredes em ângulo.",
@@ -256,16 +275,22 @@
        "16×",
        "16×"
       ]
+     ],
+     "tech": [
+      "filtro anisotrópico",
+      "anisotropic filtering"
+     ],
+     "imp": [
+      "look"
      ]
     },
     {
      "id": "vsync",
-     "cat": "fps",
      "kind": "env",
      "key": "SMS_VSYNC",
      "t": [
-      "VSync",
-      "VSync"
+      "Imagem sem rasgo",
+      "No screen tearing"
      ],
      "d": [
       "Tira o \"rasgo\" da imagem; numa tela de 60 Hz trava o jogo em 60.",
@@ -287,11 +312,11 @@
        "Adaptativo",
        "Adaptive"
       ]
-     ]
+     ],
+     "tech": "VSync"
     },
     {
      "id": "haze",
-     "cat": "perf",
      "kind": "env",
      "key": "SMS_HEAT_HAZE",
      "toggle": true,
@@ -314,11 +339,13 @@
        "Ligado",
        "On"
       ]
+     ],
+     "imp": [
+      "fps"
      ]
     },
     {
      "id": "movies",
-     "cat": "qol",
      "kind": "env",
      "key": "SMS_SKIP_MOVIES",
      "toggle": true,
@@ -345,7 +372,6 @@
     },
     {
      "id": "full",
-     "cat": "qol",
      "kind": "env",
      "key": "SMS_FULLSCREEN",
      "toggle": true,
@@ -370,18 +396,46 @@
       ]
      ]
     }
-   ]
+   ],
+   "presets": {
+    "lite": {
+     "fps": 0,
+     "scale": 0,
+     "fsr": 3,
+     "msaa": 0,
+     "fxaa": 0,
+     "aniso": 0,
+     "haze": 1
+    },
+    "bal": {
+     "fps": 0,
+     "scale": 2,
+     "fsr": 0,
+     "msaa": 1,
+     "fxaa": 1,
+     "aniso": 2,
+     "haze": 0
+    },
+    "max": {
+     "fps": 2,
+     "scale": 3,
+     "fsr": 0,
+     "msaa": 2,
+     "fxaa": 1,
+     "aniso": 3,
+     "haze": 0
+    }
+   }
   },
   "999sian/melee-pc": {
    "opts": [
     {
      "id": "backend",
-     "cat": "compat",
      "kind": "env",
      "key": "MELEE_BACKEND",
      "t": [
-      "API gráfica",
-      "Graphics API"
+      "Modo gráfico",
+      "Graphics mode"
      ],
      "d": [
       "Troque se o jogo travar ou a imagem sair errada na sua placa.",
@@ -403,16 +457,16 @@
        "Vulkan",
        "Vulkan"
       ]
-     ]
+     ],
+     "tech": "DirectX 12 / Vulkan"
     },
     {
      "id": "vsync",
-     "cat": "fps",
      "kind": "env",
      "key": "MELEE_VSYNC",
      "t": [
-      "VSync",
-      "VSync"
+      "Imagem sem rasgo",
+      "No screen tearing"
      ],
      "d": [
       "Desligado tem menos atraso nos comandos.",
@@ -434,16 +488,16 @@
        "Ligado",
        "On"
       ]
-     ]
+     ],
+     "tech": "VSync"
     },
     {
      "id": "jobs",
-     "cat": "perf",
      "kind": "env",
      "key": "MELEE_PIPELINE_JOBS",
      "t": [
-      "Compilação de shaders",
-      "Shader compilation"
+      "Menos travadinhas na primeira vez",
+      "Fewer first-time hitches"
      ],
      "d": [
       "Threads que preparam os shaders em segundo plano. Mais threads, menos travadinhas na primeira vez.",
@@ -465,11 +519,17 @@
        "2 (PC fraco)",
        "2 (weak PC)"
       ]
+     ],
+     "tech": [
+      "compilação de shaders",
+      "shader compilation"
+     ],
+     "imp": [
+      "fps"
      ]
     },
     {
      "id": "fades",
-     "cat": "qol",
      "kind": "env",
      "key": "MELEE_FAST_FADES",
      "toggle": true,
@@ -500,7 +560,6 @@
    "opts": [
     {
      "id": "fps",
-     "cat": "fps",
      "kind": "arg",
      "key": "--video_mode_refresh_rate",
      "t": [
@@ -536,12 +595,11 @@
     },
     {
      "id": "smaa",
-     "cat": "perf",
      "kind": "arg",
      "key": "--dante_smaa",
      "t": [
-      "Antisserrilhado SMAA",
-      "SMAA anti-aliasing"
+      "Bordas mais lisas",
+      "Smoother edges"
      ],
      "d": [
       "Desligar dá um pouco mais de FPS.",
@@ -558,11 +616,14 @@
        "Desligado (mais FPS)",
        "Off (more FPS)"
       ]
+     ],
+     "tech": "SMAA",
+     "imp": [
+      "look"
      ]
     },
     {
      "id": "shadow",
-     "cat": "visual",
      "kind": "arg",
      "key": "--dante_shadow_scale",
      "t": [
@@ -599,11 +660,14 @@
        "4 (melhor)",
        "4 (best)"
       ]
+     ],
+     "imp": [
+      "look",
+      "heavy"
      ]
     },
     {
      "id": "renderer",
-     "cat": "compat",
      "kind": "arg",
      "key": "--renderer",
      "t": [
@@ -625,20 +689,40 @@
        "Xenos / D3D12",
        "Xenos / D3D12"
       ]
+     ],
+     "tech": [
+      "nativo / Xenos D3D12",
+      "native / Xenos D3D12"
      ]
     }
-   ]
+   ],
+   "presets": {
+    "lite": {
+     "fps": 0,
+     "smaa": 1,
+     "shadow": 1
+    },
+    "bal": {
+     "fps": 0,
+     "smaa": 0,
+     "shadow": 2
+    },
+    "max": {
+     "fps": 1,
+     "smaa": 0,
+     "shadow": 4
+    }
+   }
   },
   "freefrank/lostodysseyrecomp": {
    "opts": [
     {
      "id": "api",
-     "cat": "compat",
      "kind": "env",
      "key": "LO_GRAPHICS_API",
      "t": [
-      "API gráfica",
-      "Graphics API"
+      "Modo gráfico",
+      "Graphics mode"
      ],
      "d": [
       "Troque se o jogo travar ou a imagem sair errada.",
@@ -660,11 +744,11 @@
        "Vulkan",
        "Vulkan"
       ]
-     ]
+     ],
+     "tech": "DirectX 12 / Vulkan"
     },
     {
      "id": "fps",
-     "cat": "fps",
      "kind": "env",
      "key": "LO_FPS",
      "t": [
@@ -700,7 +784,6 @@
     },
     {
      "id": "load",
-     "cat": "qol",
      "kind": "env",
      "key": "LO_FAST_LOADING",
      "t": [
@@ -735,7 +818,6 @@
    "opts": [
     {
      "id": "unlock",
-     "cat": "fps",
      "kind": "env",
      "key": "COD3_UNLOCKFPS",
      "toggle": true,
@@ -762,12 +844,11 @@
     },
     {
      "id": "vsync",
-     "cat": "fps",
      "kind": "env",
      "key": "COD3_VSYNC",
      "t": [
-      "VSync",
-      "VSync"
+      "Imagem sem rasgo",
+      "No screen tearing"
      ],
      "d": [
       "",
@@ -789,11 +870,11 @@
        "Ligado",
        "On"
       ]
-     ]
+     ],
+     "tech": "VSync"
     },
     {
      "id": "films",
-     "cat": "qol",
      "kind": "env",
      "key": "COD3_NOFILMS",
      "toggle": true,
@@ -824,7 +905,6 @@
    "opts": [
     {
      "id": "fps",
-     "cat": "fps",
      "kind": "arg",
      "key": "--mcla_fps",
      "t": [
@@ -860,7 +940,6 @@
     },
     {
      "id": "full",
-     "cat": "qol",
      "kind": "arg",
      "key": "--fullscreen",
      "toggle": true,
@@ -891,7 +970,6 @@
    "opts": [
     {
      "id": "fps",
-     "cat": "fps",
      "kind": "env",
      "key": "TLG_FPS",
      "exp": true,
@@ -927,7 +1005,6 @@
    "opts": [
     {
      "id": "dx12",
-     "cat": "compat",
      "kind": "arg",
      "key": "-dx12",
      "toggle": true,
@@ -950,7 +1027,8 @@
        "Ligado",
        "On"
       ]
-     ]
+     ],
+     "tech": "DirectX 12"
     }
    ]
   },
@@ -958,7 +1036,6 @@
    "opts": [
     {
      "id": "gl",
-     "cat": "compat",
      "kind": "env",
      "key": "BT3_GPU_API",
      "toggle": true,
@@ -981,7 +1058,8 @@
        "Ligado",
        "On"
       ]
-     ]
+     ],
+     "tech": "OpenGL"
     }
    ]
   },
@@ -989,7 +1067,6 @@
    "opts": [
     {
      "id": "window",
-     "cat": "qol",
      "kind": "arg",
      "key": "--fullscreen",
      "toggle": true,
@@ -1020,7 +1097,6 @@
    "opts": [
     {
      "id": "safegpu",
-     "cat": "compat",
      "kind": "env",
      "key": "GOW3_VULKAN_COMPAT",
      "toggle": true,
@@ -1043,7 +1119,8 @@
        "Ligado",
        "On"
       ]
-     ]
+     ],
+     "tech": "Vulkan compat"
     }
    ]
   },
