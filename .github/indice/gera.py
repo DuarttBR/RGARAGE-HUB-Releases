@@ -22,7 +22,7 @@ import urllib.request
 API = 'https://api.github.com/graphql'
 LOTE = 50
 Q_REPO = '''{a}: repository(owner: {o}, name: {n}) {{
-  releases(first: 6, orderBy: {{field: CREATED_AT, direction: DESC}}) {{
+  releases(first: 15, orderBy: {{field: CREATED_AT, direction: DESC}}) {{
     nodes {{ tagName name isPrerelease isDraft publishedAt releaseAssets(first: 60) {{ nodes {{ name size }} }} }}
   }}
 }}'''
