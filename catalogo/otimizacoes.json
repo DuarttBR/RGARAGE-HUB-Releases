@@ -1147,6 +1147,475 @@
      "The first run compiles shaders as it goes; later runs load them from the cache."
     ]
    ]
+  },
+  "paulcombal/mw2-recompiled": {
+   "opts": [
+    {
+     "id": "fps",
+     "kind": "env",
+     "key": "MW2_FPS_LIMIT",
+     "main": true,
+     "t": [
+      "Limite de FPS",
+      "FPS cap"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "60",
+       "60",
+       "60"
+      ],
+      [
+       "120",
+       "120",
+       "120"
+      ],
+      [
+       "144",
+       "144",
+       "144"
+      ],
+      [
+       "0",
+       "Sem limite",
+       "Uncapped"
+      ]
+     ]
+    },
+    {
+     "id": "fov",
+     "kind": "env",
+     "key": "MW2_FOV",
+     "main": true,
+     "t": [
+      "Campo de visão",
+      "Field of view"
+     ],
+     "tech": "FOV",
+     "d": [
+      "Mais alto mostra mais da cena (bom em tela larga).",
+      "Higher shows more of the scene (good on wide screens)."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "80",
+       "80",
+       "80"
+      ],
+      [
+       "90",
+       "90",
+       "90"
+      ],
+      [
+       "100",
+       "100",
+       "100"
+      ]
+     ]
+    },
+    {
+     "id": "msaa",
+     "kind": "env",
+     "keys": [
+      "MW2_MSAA",
+      "MW2_NO_MSAA"
+     ],
+     "main": true,
+     "t": [
+      "Bordas mais lisas",
+      "Smoother edges"
+     ],
+     "tech": "MSAA",
+     "imp": [
+      "look",
+      "heavy"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       {
+        "MW2_NO_MSAA": "1"
+       },
+       "Desligado (mais FPS)",
+       "Off (more FPS)"
+      ],
+      [
+       {
+        "MW2_MSAA": "4"
+       },
+       "4×",
+       "4×"
+      ]
+     ]
+    },
+    {
+     "id": "full",
+     "kind": "env",
+     "key": "MW2_FULLSCREEN",
+     "toggle": true,
+     "t": [
+      "Tela cheia",
+      "Fullscreen"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "iexplosiverage/dbz-burst-limit-recompiled": {
+   "opts": [
+    {
+     "id": "fps",
+     "kind": "arg",
+     "key": "--frame_rate",
+     "t": [
+      "Taxa de quadros",
+      "Frame rate"
+     ],
+     "d": [
+      "Também no menu de configurações do port (F1).",
+      "Also in the port's settings menu (F1)."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "60",
+       "60",
+       "60"
+      ]
+     ]
+    },
+    {
+     "id": "mnk",
+     "kind": "arg",
+     "key": "--mnk_mode",
+     "toggle": true,
+     "t": [
+      "Jogar no teclado",
+      "Play with keyboard"
+     ],
+     "d": [
+      "Espaço = A, Backspace = B, Enter = Start, WASD = mover.",
+      "Space = A, Backspace = B, Enter = Start, WASD = move."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "true",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "pauloubirajara/asuras-wrath-recomp": {
+   "opts": [
+    {
+     "id": "async",
+     "kind": "arg",
+     "key": "--async_shader_compilation",
+     "toggle": true,
+     "imp": [
+      "fps"
+     ],
+     "t": [
+      "Menos travadinhas com efeitos novos",
+      "Fewer hitches on new effects"
+     ],
+     "tech": [
+      "shaders em segundo plano",
+      "background shaders"
+     ],
+     "d": [
+      "Compila os shaders sem parar o jogo.",
+      "Compiles shaders without stopping the game."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "true",
+       "Ligado",
+       "On"
+      ]
+     ]
+    },
+    {
+     "id": "threads",
+     "kind": "arg",
+     "key": "--vulkan_pipeline_creation_threads",
+     "imp": [
+      "fps"
+     ],
+     "t": [
+      "Threads para preparar os gráficos",
+      "Threads to prepare graphics"
+     ],
+     "d": [
+      "Mais threads, menos espera na primeira vez em cada área.",
+      "More threads, less waiting the first time in each area."
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão do port",
+       "Port default"
+      ],
+      [
+       "4",
+       "4",
+       "4"
+      ],
+      [
+       "6",
+       "6",
+       "6"
+      ],
+      [
+       "8",
+       "8",
+       "8"
+      ]
+     ]
+    }
+   ]
+  },
+  "mateussmeneses/theorder1886-port": {
+   "opts": [
+    {
+     "id": "msaa",
+     "kind": "env",
+     "key": "THEORDER_NO_MSAA",
+     "toggle": true,
+     "imp": [
+      "fps"
+     ],
+     "t": [
+      "Desligar o MSAA",
+      "Turn MSAA off"
+     ],
+     "tech": "MSAA",
+     "d": [
+      "Imagem um pouco mais serrilhada, com mais FPS (o padrão é ligado em placas NVIDIA).",
+      "Slightly more jagged picture, more FPS (on by default on NVIDIA)."
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ]
+  },
+  "hayatog/iss_pc": {
+   "opts": [
+    {
+     "id": "sens",
+     "kind": "env",
+     "key": "ISS_MOUSE_SENS",
+     "t": [
+      "Sensibilidade do mouse",
+      "Mouse sensitivity"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão (1,0)",
+       "Default (1.0)"
+      ],
+      [
+       "0.5",
+       "0,5 (mais lenta)",
+       "0.5 (slower)"
+      ],
+      [
+       "1.5",
+       "1,5",
+       "1.5"
+      ],
+      [
+       "2.0",
+       "2,0 (mais rápida)",
+       "2.0 (faster)"
+      ]
+     ]
+    },
+    {
+     "id": "invy",
+     "kind": "env",
+     "key": "ISS_MOUSE_INVERT_Y",
+     "toggle": true,
+     "t": [
+      "Inverter o eixo Y do mouse",
+      "Invert mouse Y axis"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ],
+   "tips": [
+    [
+     "Gráficos, FPS e correções experimentais ficam no launcher do port e no menu da tecla Insert, dentro do jogo.",
+     "Graphics, FPS and experimental fixes are in the port's launcher and in the Insert key menu, in game."
+    ]
+   ]
+  },
+  "hayatog/gr2_pc": {
+   "opts": [
+    {
+     "id": "sens",
+     "kind": "env",
+     "key": "GR2_MOUSE_SENS",
+     "t": [
+      "Sensibilidade do mouse",
+      "Mouse sensitivity"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Padrão (1,0)",
+       "Default (1.0)"
+      ],
+      [
+       "0.5",
+       "0,5 (mais lenta)",
+       "0.5 (slower)"
+      ],
+      [
+       "1.5",
+       "1,5",
+       "1.5"
+      ],
+      [
+       "2.0",
+       "2,0 (mais rápida)",
+       "2.0 (faster)"
+      ]
+     ]
+    },
+    {
+     "id": "invy",
+     "kind": "env",
+     "key": "GR2_MOUSE_INVERT_Y",
+     "toggle": true,
+     "t": [
+      "Inverter o eixo Y do mouse",
+      "Invert mouse Y axis"
+     ],
+     "d": [
+      "",
+      ""
+     ],
+     "choices": [
+      [
+       null,
+       "Desligado",
+       "Off"
+      ],
+      [
+       "1",
+       "Ligado",
+       "On"
+      ]
+     ]
+    }
+   ],
+   "tips": [
+    [
+     "Gráficos e FPS ficam no launcher do port.",
+     "Graphics and FPS are in the port's launcher."
+    ]
+   ]
+  },
+  "0herculabs/hl360-forza3": {
+   "tips": [
+    [
+     "Resolução, qualidade e controles ficam nas abas Gráficos e Controles do launcher do port.",
+     "Resolution, quality and controls are in the Graphics and Controls tabs of the port's launcher."
+    ],
+    [
+     "O port usa Direct3D 12: o Vulkan ainda não desenha o Forza 3 direito.",
+     "The port uses Direct3D 12: Vulkan doesn't render Forza 3 correctly yet."
+    ]
+   ]
   }
  }
 }
