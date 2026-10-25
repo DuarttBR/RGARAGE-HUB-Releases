@@ -35,11 +35,14 @@ Os ports de PC e as recompilações de jogos de console estão espalhados em mil
 - ⬇️ **Instalação com um clique**, direto da release oficial de cada projeto, com fila de downloads e retomada.
 - 🔄 **Sempre na versão mais nova**: um índice central confere as releases de todos os ports a cada 2 horas, e o hub avisa quando um jogo instalado ganha atualização. O próprio hub também se atualiza sozinho e confere o SHA-256 de cada versão.
 - 🛠️ **Builds RGARAGE**: ports de código aberto que não têm build para Windows ganham um compilado por nós, com licença, créditos e código-fonte no pacote ([RGARAGE-Builds](https://github.com/DuarttBR/RGARAGE-Builds)).
+- 🔎 **Encontrar meus jogos**: aponte a pasta das suas cópias e o hub mostra qual port serve para cada uma (pelo ID do jogo ou pelo nome), para baixar, preparar ou pôr tudo na biblioteca.
+- ⚡ **Otimizações por jogo**: os ajustes que o autor de cada port deixou (FPS, nitidez, FSR, bordas, tela larga…) em linguagem simples, com perfis Leve, Equilibrado e Máximo e o **recomendado para o seu PC**.
 - 📀 **Preparar jogo**: você mostra onde está a **sua** cópia (ROM, ISO, BIN/CUE, PKG, pasta) e o hub identifica, confere ID, versão, região e SHA-1, extrai PKG de PS4 e aplica o update, converte ROM de N64 para `.z64` e grava o caminho no port.
 - 🕹️ **19 estilos de console**: PS5, PS4, PS3 (XMB), Xbox 360, Wii, Switch, PS2 e outros, com cores, sons e tela inicial de cada um, por perfil.
 - 🎮 **Tudo no controle**: os botões na tela viram os do seu controle (**A B X Y** do Xbox, **✕ ○ △ □** do PlayStation ou o layout da Nintendo). Modo TV incluído.
 - ⚡ **Otimizar**: mostra o seu PC e o uso agora, aplica ajustes do Windows para jogos com um clique e desfaz tudo quando quiser. Avisa sobre os programas pesados abertos.
 - 🧰 **Problemas e soluções**: lê o log quando o jogo fecha com erro, traz as correções recomendadas pela comunidade e separa os relatos do GitHub que batem com a sua placa e o seu processador.
+- 🎮 **Adicionar à Steam** com capa, banner e fundo (abre pelo hub, inclusive no Big Picture), **Me avise quando sair** para jogos ainda sem build para PC e **Atualizar todos** de uma vez.
 - 🎯 **Cheats** de 95 ports, **atalho do jogo na área de trabalho**, **modo Parsec** para jogar com amigos à distância, **guias e vídeos** no seu idioma, **perfis** com biblioteca, favoritos e tempo de jogo, **modo leve** para PC mais fraco e interface em **7 idiomas**.
 
 <div align="center">
@@ -97,11 +100,14 @@ Achou um problema no hub? Abra uma [issue](../../issues). Problema dentro de um 
 - **One-click installs** from each project's official release, with a download queue and resume.
 - **Always up to date**: a central index checks every port's releases every 2 hours and the hub tells you when an installed game has an update. The hub updates itself too and verifies each version's SHA-256.
 - **RGARAGE builds**: open-source ports with no Windows build get one compiled by us, with license, credits and source code in the package ([RGARAGE-Builds](https://github.com/DuarttBR/RGARAGE-Builds)).
+- **Find my games**: point to the folder with your copies and the hub shows which port fits each one (by game ID or name), to download, prepare or add them all.
+- **Per-game optimizations**: the settings each port's author left (FPS, sharpness, FSR, edges, widescreen…) in plain language, with Light, Balanced and Maximum profiles and the one **recommended for your PC**.
 - **Prepare game**: point to **your own** copy (ROM, ISO, BIN/CUE, PKG, folder). The hub identifies it, checks ID, version, region and SHA-1, extracts PS4 PKGs and applies the update, converts N64 ROMs to `.z64` and saves the path in the port.
 - **19 console styles** (PS5, PS4, PS3 XMB, Xbox 360, Wii, Switch, PS2 and more) with their colors, sounds and home screen, per profile.
 - **Full controller support**: on-screen buttons match your controller (Xbox, PlayStation or Nintendo). TV mode included.
 - **Optimize**: shows your PC and live usage, applies Windows gaming tweaks in one click and undoes everything whenever you want.
 - **Problems and fixes**: reads the log when a game crashes, offers community-recommended fixes and filters GitHub reports that match your GPU and CPU.
+- **Add to Steam** with cover, banner and background (starts through the hub, Big Picture too), **Notify me when it's out** for games with no PC build yet, and **Update all** at once.
 - **Cheats** for 95 ports, **desktop shortcuts**, **Parsec mode** to play with friends remotely, **guides and videos** in your language, **profiles** with library, favorites and play time, **light mode** for weaker PCs and a UI in **7 languages**.
 
 **Important**: RGARAGE HUB does **not** download games or point to where to get them. Ports run with the files of **your original copy**. Games and trademarks belong to their owners.
