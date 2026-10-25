@@ -1,0 +1,39 @@
+name: Índice de releases do catálogo
+
+# A cada 2 horas: lê as releases de todos os repositórios do catálogo (catalogo/repos.json) e publica
+# releases.json.gz no branch "indice" (um commit só, sobrescrito; não cresce o histórico).
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['catalogo/repos.json', '.github/indice/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: indice
+  cancel-in-progress: false
+
+jobs:
+  indice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gera o índice
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/indice/gera.py catalogo/repos.json saida/releases.json.gz
+      - name: Publica no branch indice
+        run: |
+          cd saida
+          git init -q -b indice
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          printf 'Índice de releases do catálogo do RGARAGE HUB, gerado a cada 2 horas pela Action "Índice de releases do catálogo".\n' > README.md
+          git add -A
+          git commit -q -m "Índice de releases ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" indice
